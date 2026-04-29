@@ -17,7 +17,7 @@ export default function Apply() {
     setLoading(true); // 🔥 disable button
 
     try {
-      await axios.post("http://localhost:5000/api/applications", {
+      await axios.post("https://recruitment-app-cz6l.onrender.com/api/applications", {
         ...form,
         jobId: id,
       });
