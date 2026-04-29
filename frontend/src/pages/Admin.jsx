@@ -7,7 +7,7 @@ export default function Admin() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/applications")
+      .get("https://recruitment-app-cz6l.onrender.com/api/applications")
       .then((res) => setApps(res.data));
   }, []);
 
